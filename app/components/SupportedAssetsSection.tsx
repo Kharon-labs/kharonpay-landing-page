@@ -31,8 +31,15 @@ export const SupportedAssetsSection = () => {
         >
           <h2 className="text-4xl lg:text-6xl font-bold mb-6">
             {supportedAssets.heading.main}{" "}
-            <span className="gradient-text">
+            <span className="gradient-text relative">
               {supportedAssets.heading.highlight}
+              <motion.div
+                className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-kharon-purple to-kharon-purple-dark rounded-full"
+                initial={{ scaleX: 0 }}
+                whileInView={{ scaleX: 1 }}
+                transition={{ duration: 0.8, delay: 0.5 }}
+                viewport={{ once: true }}
+              />
             </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">

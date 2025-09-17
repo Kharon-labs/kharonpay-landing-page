@@ -47,7 +47,7 @@
         "title": "Add Bank & Receive",
         "description": "Select your bank details, confirm the swap, and get your money in split seconds",
         "icon": "bank",
-        "color": "from-emerald-500 to-emerald-600",
+        "color": "from-gray-900 to-gray-950",
         "details": [
           "Secure bank integration",
           "Instant confirmation",

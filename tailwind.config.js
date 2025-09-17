@@ -8,6 +8,23 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    "from-blue-500",
+    "to-blue-600",
+    "from-green-500",
+    "to-green-600",
+    "from-kharon-purple",
+    "to-kharon-purple-dark",
+    "from-orange-500",
+    "to-orange-600",
+    "from-gray-900",
+    "to-gray-950",
+    "from-purple-500",
+    "to-purple-600",
+    "from-emerald-500",
+    "to-emerald-600",
+    "bg-gradient-to-br",
+  ],
   darkMode: "class",
   theme: {
     extend: {
