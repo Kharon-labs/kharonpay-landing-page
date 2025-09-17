@@ -8,11 +8,15 @@ export const SupportedAssetsSection = () => {
   const { supportedAssets } = supportedAssetsData;
 
   const getStatusStyles = (statusType: string) => {
-    const styles =
-      supportedAssets.statusStyles[
-        statusType as keyof typeof supportedAssets.statusStyles
-      ];
-    return `px-4 py-2 rounded-full text-sm font-medium ${styles.bg} ${styles.text}`;
+    const baseClasses = "px-4 py-2 rounded-full text-sm font-medium";
+
+    if (statusType === "live") {
+      return `${baseClasses} bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-400`;
+    } else if (statusType === "coming-soon") {
+      return `${baseClasses} bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-400`;
+    }
+
+    return baseClasses;
   };
 
   return (
