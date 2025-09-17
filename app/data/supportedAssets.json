@@ -1,0 +1,84 @@
+{
+  "supportedAssets": {
+    "heading": {
+      "main": "Supported",
+      "highlight": "Assets",
+      "subheading": "Convert popular cryptocurrencies to local currencies across Africa"
+    },
+    "cryptocurrencies": {
+      "title": "Cryptocurrencies",
+      "items": [
+        {
+          "id": "usdc",
+          "name": "USDC",
+          "description": "USD Coin",
+          "status": "Coming Soon",
+          "statusType": "coming-soon",
+          "logo": "/usdc-logo.svg",
+          "color": "from-blue-500 to-blue-600"
+        },
+        {
+          "id": "usdt",
+          "name": "USDT",
+          "description": "Tether USD",
+          "status": "Coming Soon",
+          "statusType": "coming-soon",
+          "logo": "/usdt-logo.svg",
+          "color": "from-green-500 to-green-600"
+        },
+        {
+          "id": "mtk",
+          "name": "MTK",
+          "description": "Platform Token",
+          "status": "Live",
+          "statusType": "live",
+          "logo": "/mtk-logo.svg",
+          "color": "from-kharon-purple to-kharon-purple-dark"
+        }
+      ]
+    },
+    "fiatCurrencies": {
+      "title": "Fiat Currencies",
+      "items": [
+        {
+          "id": "ngn",
+          "name": "NGN",
+          "description": "Nigerian Naira",
+          "status": "Live",
+          "statusType": "live",
+          "flag": "🇳🇬"
+        },
+        {
+          "id": "ghs",
+          "name": "GHS",
+          "description": "Ghanaian Cedi",
+          "status": "Coming Soon",
+          "statusType": "coming-soon",
+          "flag": "🇬🇭"
+        },
+        {
+          "id": "kes",
+          "name": "KES",
+          "description": "Kenyan Shilling",
+          "status": "Coming Soon",
+          "statusType": "coming-soon",
+          "flag": "🇰🇪"
+        }
+      ]
+    },
+    "roadmap": {
+      "text": "Expanding to more African markets in 2026",
+      "animationDots": 3
+    },
+    "statusStyles": {
+      "live": {
+        "bg": "bg-green-100 dark:bg-green-900/30",
+        "text": "text-green-800 dark:text-green-400"
+      },
+      "coming-soon": {
+        "bg": "bg-yellow-100 dark:bg-yellow-900/30",
+        "text": "text-yellow-800 dark:text-yellow-400"
+      }
+    }
+  }
+}

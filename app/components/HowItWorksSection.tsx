@@ -338,15 +338,15 @@ export const HowItWorksSection = () => {
             </motion.div>
 
             <motion.div
-              className="absolute -bottom-6 -right-6 w-18 h-18 bg-gradient-to-br from-blue-400 to-blue-600 rounded-3xl flex items-center justify-center shadow-2xl"
+              className="absolute bottom-4 right-4 w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center shadow-xl"
               animate={{
-                y: [0, 12, 0],
-                x: [0, 8, 0],
-                scale: [1, 1.15, 1],
+                y: [0, 8, 0],
+                x: [0, 4, 0],
+                scale: [1, 1.1, 1],
               }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             >
-              <ArrowRight size={28} className="text-white" />
+              <ArrowRight size={24} className="text-white" />
             </motion.div>
 
             <motion.div
