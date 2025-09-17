@@ -1,0 +1,75 @@
+{
+  "howItWorks": {
+    "heading": {
+      "main": "How It Works",
+      "highlight": "Works",
+      "subheading": "Convert your crypto to cash in four simple steps—no complexity, just results"
+    },
+    "steps": [
+      {
+        "id": 1,
+        "title": "Sign In & Get Started",
+        "description": "Create your account or sign in securely to access your personalized swap dashboard",
+        "icon": "user-check",
+        "color": "from-blue-500 to-blue-600",
+        "details": [
+          "Secure authentication",
+          "Personalized dashboard",
+          "Quick account setup"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Select Token & Amount",
+        "description": "Choose your crypto token and enter the amount you want to convert to cash",
+        "icon": "coins",
+        "color": "from-green-500 to-green-600",
+        "details": [
+          "Multiple token support",
+          "Real-time balance check",
+          "Flexible amount entry"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Auto-Calculate & Preview",
+        "description": "Our smart calculator instantly shows exactly how much you'll receive using live exchange rates",
+        "icon": "calculator",
+        "color": "from-kharon-purple to-kharon-purple-dark",
+        "details": [
+          "Live exchange rates",
+          "Transparent pricing",
+          "No hidden fees"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Add Bank & Receive",
+        "description": "Select your bank details, confirm the swap, and get your money in split seconds",
+        "icon": "bank",
+        "color": "from-emerald-500 to-emerald-600",
+        "details": [
+          "Secure bank integration",
+          "Instant confirmation",
+          "Split-second transfers"
+        ]
+      }
+    ],
+    "illustration": {
+      "imagePath": "/kharonpay-process-flow.png",
+      "alt": "Kharon Pay Process Flow",
+      "placeholder": {
+        "title": "Process Flow Illustration",
+        "description": "Animated step-by-step visual showing: Sign In → Select Token → Auto-Calculate → Bank Transfer"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Join thousands who trust Kharon Pay for instant crypto-to-cash conversions",
+      "button": {
+        "text": "Start Converting Now",
+        "url": "https://app.kharonpay.com"
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "badge": {
+      "show": false,
+      "text": "Built on StarkNet • Instant Settlements",
+      "icon": "sparkles"
+    },
+    "headline": {
+      "primary": "From Crypto to Cash",
+      "secondary": "in a Click"
+    },
+    "subheadline": "Link your bank, swap your crypto, spend freely—no delays, no complexity",
+    "buttons": {
+      "primary": {
+        "text": "Launch App",
+        "url": "https://app.kharonpay.com",
+        "external": true
+      },
+      "secondary": {
+        "text": "How It Works",
+        "targetId": "how-it-works",
+        "external": false
+      }
+    },
+    "trustIndicators": {
+      "title": "Trusted by crypto users across Africa",
+      "items": [
+        {
+          "text": "Instant Settlements",
+          "color": "green"
+        },
+        {
+          "text": "24/7 Support",
+          "color": "blue"
+        },
+        {
+          "text": "Bank-Grade Security",
+          "color": "purple"
+        }
+      ]
+    },
+    "illustration": {
+      "imagePath": "/kharonpay-swap-ui.png",
+      "alt": "Kharon Pay Swap Interface",
+      "placeholder": {
+        "title": "Hero Illustration",
+        "description": "Modern crypto-to-cash flow diagram or sleek mobile app interface mockup"
+      }
+    },
+    "floatingElements": [
+      {
+        "position": "top-20 left-10",
+        "size": "w-72 h-72",
+        "color": "kharon-purple/10",
+        "animation": "animate-pulse-slow"
+      },
+      {
+        "position": "bottom-20 right-10",
+        "size": "w-96 h-96",
+        "color": "blue-500/10",
+        "animation": "animate-float"
+      },
+      {
+        "position": "top-1/2 left-1/4",
+        "size": "w-64 h-64",
+        "color": "purple-500/10",
+        "animation": "animate-spin-slow"
+      }
+    ]
+  }
+}

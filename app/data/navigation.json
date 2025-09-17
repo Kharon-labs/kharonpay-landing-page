@@ -1,0 +1,34 @@
+{
+  "navigationLinks": [
+    {
+      "label": "How It Works",
+      "href": "how-it-works",
+      "id": "how-it-works"
+    },
+    {
+      "label": "Why Choose Us",
+      "href": "features",
+      "id": "features"
+    },
+    {
+      "label": "Supported Assets",
+      "href": "supported-assets",
+      "id": "supported-assets"
+    },
+    {
+      "label": "FAQ",
+      "href": "faq",
+      "id": "faq"
+    }
+  ],
+  "brand": {
+    "logoPath": "/kharon-pay-logo.png",
+    "logoAlt": "Kharon Pay Logo",
+    "brandText": "Kharon Pay"
+  },
+  "cta": {
+    "text": "Launch App",
+    "url": "https://app.kharonpay.com",
+    "external": true
+  }
+}
