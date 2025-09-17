@@ -1,0 +1,80 @@
+{
+  "brand": {
+    "name": "Kharon Pay",
+    "tagline": "From Crypto to Cash in a Click. The fastest and most secure way to convert cryptocurrency to local currency.",
+    "location": {
+      "icon": "map-pin",
+      "text": "Lagos, Nigeria"
+    },
+    "contact": {
+      "icon": "mail",
+      "email": "support@kharon.com",
+      "text": "support@kharon.com"
+    }
+  },
+  "sections": [
+    {
+      "title": "Product",
+      "id": "product",
+      "links": [
+        { "label": "How It Works", "href": "#how-it-works" },
+        { "label": "Features", "href": "#features" },
+        { "label": "Supported Assets", "href": "#supported-assets" },
+        { "label": "FAQ", "href": "#faq" }
+      ]
+    },
+    {
+      "title": "Connect",
+      "id": "connect",
+      "socialLinks": [
+        {
+          "icon": "twitter",
+          "href": "https://x.com/Kharon_pay",
+          "label": "Twitter"
+        },
+        {
+          "icon": "github",
+          "href": "https://github.com/Kharon-labs",
+          "label": "GitHub"
+        }
+      ],
+      "supportInfo": {
+        "availability": "24/7 Support Available",
+        "responseTime": "Response time: < 2 hours",
+        "statusIndicator": {
+          "color": "green-500",
+          "animation": "animate-pulse"
+        }
+      }
+    }
+  ],
+  "footer": {
+    "copyright": {
+      "year": "2025",
+      "company": "Kharon Pay by Kharon Labs",
+      "text": "All rights reserved"
+    },
+    "badges": ["Built on StarkNet", "Secured by Design", "Made in Africa"]
+  },
+  "backgroundElements": [
+    {
+      "position": "top-0 left-0",
+      "size": "w-64 h-64",
+      "color": "kharon-purple/10"
+    },
+    {
+      "position": "bottom-0 right-0",
+      "size": "w-80 h-80",
+      "color": "blue-500/10"
+    }
+  ],
+  "animations": {
+    "brandDelay": 0,
+    "sectionDelayIncrement": 0.1,
+    "footerDelay": 0.4,
+    "hoverScale": 1.1,
+    "hoverY": -2,
+    "tapScale": 0.95,
+    "duration": 0.6
+  }
+}

@@ -12,7 +12,7 @@ export const FinalCTASection = () => {
         <div className="absolute bottom-0 right-0 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-float"></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-white/5 rounded-full blur-3xl animate-spin-slow"></div>
       </div>
-      
+
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -38,11 +38,12 @@ export const FinalCTASection = () => {
             <br />
             Your Crypto?
           </h2>
-          
+
           <p className="text-xl lg:text-2xl opacity-90 max-w-2xl mx-auto">
-            Join thousands of users who trust Kharon Pay for instant crypto-to-cash conversions
+            Join many of our users who trust Kharon Pay for instant
+            crypto-to-cash conversions
           </p>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -59,10 +60,13 @@ export const FinalCTASection = () => {
               whileTap={{ scale: 0.95 }}
             >
               Launch App Now
-              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform duration-200" />
+              <ArrowRight
+                size={20}
+                className="group-hover:translate-x-1 transition-transform duration-200"
+              />
             </motion.a>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
