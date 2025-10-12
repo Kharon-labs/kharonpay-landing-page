@@ -12,8 +12,8 @@
           "id": "usdc",
           "name": "USDC",
           "description": "USD Coin",
-          "status": "Coming Soon",
-          "statusType": "coming-soon",
+          "status": "Live",
+          "statusType": "live",
           "logo": "/usdc-logo.svg",
           "color": "from-blue-500 to-blue-600"
         },
@@ -21,19 +21,10 @@
           "id": "usdt",
           "name": "USDT",
           "description": "Tether USD",
-          "status": "Coming Soon",
-          "statusType": "coming-soon",
-          "logo": "/usdt-logo.svg",
-          "color": "from-green-500 to-green-600"
-        },
-        {
-          "id": "mtk",
-          "name": "MTK",
-          "description": "Platform Token",
           "status": "Live",
           "statusType": "live",
-          "logo": "/mtk-logo.svg",
-          "color": "from-kharon-purple to-kharon-purple-dark"
+          "logo": "/usdt-logo.svg",
+          "color": "from-green-500 to-green-600"
         }
       ]
     },
